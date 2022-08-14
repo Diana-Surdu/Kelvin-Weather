@@ -1,0 +1,32 @@
+<script>
+  // temp in Kelvin
+  const kelvin = 295
+
+  // temp in Celsius
+  let celsius = kelvin - 273
+
+  //the equation to calculate Fahrenheit
+  let numRound = celsius*(9/5)
+
+  // temp in Fahrenheit using the function to round the number
+  let fahrenheit = Math.floor(numRound) + 32
+
+  
+
+  alert(
+    "temp in Kelvin:            " + kelvin + " °K" + "\n" +
+    "temp in Celsius:           " + celsius + " °C" + "\n"+ 
+    "temp in Fahrenheit:     " + fahrenheit + " °F"
+  )
+
+  /*console.log(
+    "temp in Kelvin:      " + kelvin + " °K" + "\n" +
+    "temp in Celsius:     " + celsius + " °C" + "\n"+ 
+    "temp in Fahrenheit:  " + fahrenheit + " °F"
+  )*/
+
+  console.log("The temperature is " + fahrenheit + " degrees Fahrenheit.")
+
+  console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+
+</script>
